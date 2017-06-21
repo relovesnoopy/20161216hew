@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { color: #333333; }
+
+/* リンク */
+a { color: #999966; }
+a:hover { color: #996600; }
+
+/* ページ */
+#page {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* ページヘッター */
+#pageHead #siteTitle {
+	font-size: 80px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#pageHead #catchcopy {
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* グローバルナビ */
+#pageHead .globalNavi {
+	border: solid #CCCCCC;
+	border-width: 1px 0;
+	padding: 10px 0;
+}
+
+#pageHead .globalNavi ul  {
+	margin: 0;
+	padding: 0;
+}
+
+#pageHead .globalNavi ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+#pageHead .globalNavi ul li {
+	list-style: none;
+	width: 130px;
+	float: left;
+	border-left: solid 1px #CCCCCC;
+	padding: 0 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.429;
+}
+
+#pageHead .globalNavi ul li:first-child {
+	border-left: none;
+}
+
+#pageHead .globalNavi ul li a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0;
+}
+
+#pageHead .globalNavi ul li a:hover,
+#pageHead .globalNavi ul li.current a {
+	background-color: #F2F2E5;
+}
+
+/* ページフッター */
+#pageFoot {
+	border-top: solid 1px #CCCCCC;
+	margin-top: 15px;
+	clear: both;
+}
+
+#pageFoot #copyright small {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* ページボディ */
+#pageBody {
+	margin-top: 30px;
+}
+
+#pageBody:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#pageBodyMain  {
+	width: 780px;
+	float: left;
+}
+#pageBodySub {
+	width: 800px;
+	float: left;
+}
+
+/* メイン画像 */
+#pageBody .mainVisual ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#pageBody .mainVisual ul li {
+	position: relative;
+}
+
+/* 商品一覧 */
+
+#pageBody .product {
+	margin-top: 40px;
+}
+
+#pageBody .product:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+#pageBody .product figure {
+	width: 200px;
+	float: left;
+	margin-left: 80px;
+}
+#pageBody  figure {
+	width: 200px;
+	float: left;
+	margin-left: 80px;
+}
+
+#pageBody .product figure figcaption {
+	font-size: 20px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+/* 次のページ */
+#pageBody .next p {
+	text-align: center;
+}
+/* ------ サブカラム内の装飾 -------- */
+
+
+/* ------ メインカラム内の装飾 -------- */
+#pageBodyMain p {
+	font-size: 20px;
+	line-height: 1.429;
+	text-align: center;
+  }
+
+/* リスト */
+#pageBodyMain ul li {
+	font-size: 14px;
+	list-style-type: square;
+	line-height: 1.429;
+}
+

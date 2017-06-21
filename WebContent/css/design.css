@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#imgbox1{
+	background-color:#fff;
+	float:left;
+	margin:20px 0 0 20px;;
+}
+#imgbox2{
+	background-color: #fff;
+	float: left;
+	margin: 20px 0 0 0;
+}
+#imgbox3{
+	background-color:#fff;
+	float:left;
+	margin:20px 0 0 0;
+}
+#imgbox4{
+	background-color:#fff;
+	float:left;
+	margin:20px 0 0 0;
+}
+h1{
+	text-align:center;
+	font-size:10px;
+}

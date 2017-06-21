@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, figure {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+body{
+	background-color:white;
+}
+
+#container{
+	width:1200px;
+	height:1500px;
+	margin:0 auto;
+	background-color:orange;
+}
+#header{
+	width:1200px;
+	height:90px;
+	background-color:rgba(0,0,0,0.3);
+	position:fixed;
+}
+#logo{
+	height:90px;
+	width:200px;
+	float:left;
+	background-color:green;
+	text-align:center;
+	font-size:24px;
+}
+#navi{
+	height:90px;
+	width:810px;
+	float:left;
+}
+#navi li{
+	height:90px;
+	width:135px;
+	float:left;
+	text-align:center;
+	font-size:24px;
+	padding-top:33px;
+	display:inline-block;
+
+}
+#navi li a{
+	text-decoration:none;
+	color:#f0f8ff;
+}
+#navi li a{
+	text-decoration:none;
+	color:#f0f8ff;
+}
+.n_list{
+	height:90px;
+	display: inline-block;
+	<!--border: 1px solid #f0f8ff;-->
+}
+#search_box{
+	height:90px;
+	width:120px;
+	float:right;
+}
+#search_box input{
+
+}
+#searchform{
+	width:auto;
+	float:right;
+	padding-top:33px;
+}
+
+#slider{
+	clear:both;
+	height:1200px;
+	width:1200px;
+	background-color:#f0f8ff;
+	background-image:url("../images/1920j8.jpg");
+}
+#new{
+	height:50px;
+	width:1200px;
+	background-color:red;
+	text-align:center;
+	font-size:30px;
+	padding:20px 0 0 0;
+}
+

@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+
+input[type="submit"]{
+  width:100px;
+  height:50%;
+  background:#004A3E;
+  border:0;
+  padding:2%;
+  font-family:'Open Sans',sans-serif;
+  font-size:80%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+input[type="submit"]:hover{
+  background:#53B9A8;
+}
+
+fieldset{
+  width:550px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+.kanryo{
+	text-align:center;
+}
+
+.total{
+	text-align:center;
+}
+
+div{
+	text-align:center;
+}

@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body { color: #333333; }
+
+/* リンク */
+a { color: #999966;
+border-radius: 20px;}
+a:hover { color: #999966;}
+a.title{
+	text-decoration: none;
+	font-family:'Open Sans',sans-serif;
+	font-size:100%;
+	color:#333333;
+	cursor:pointer;
+	transition:background .3s;
+	-webkit-transition:background .3s;
+}
+a.title:hover { color: #999966;}
+
+
+/* ページ */
+#page {
+	width: 980px;
+	margin: 0 auto;
+}
+
+/* ページヘッター */
+#pageHead #siteTitle {
+	font-size: 80px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	text-align: center;
+}
+.title {
+	color: black;
+	text-decoration: none;
+}
+
+#pageHead #catchcopy {
+	font-size: 12px;
+	line-height: 1.5;
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* グローバルナビ */
+#pageHead .globalNavi {
+	border: solid #CCCCCC;
+	border-width: 1px 0;
+	padding: 10px 0;
+}
+
+#pageHead .globalNavi ul  {
+	margin: 0;
+	padding: 0;
+}
+
+#pageHead .globalNavi ul:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+
+#pageHead .globalNavi ul li {
+	list-style: none;
+	width: 130px;
+	float: left;
+	border-left: solid 1px #CCCCCC;
+	padding: 0 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.429;
+}
+
+#pageHead .globalNavi ul li:first-child {
+	border-left: none;
+}
+
+#pageHead .globalNavi ul li a {
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	padding: 5px 0;
+}
+
+#pageHead .globalNavi ul li a:hover,
+#pageHead .globalNavi ul li.current a {
+	background-color: #F2F2E5;
+}
+
+/* ページフッター */
+#pageFoot {
+	border-top: solid 1px #CCCCCC;
+	margin-top: 15px;
+}
+
+#pageFoot #copyright small {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* ページボディ */
+#pageBody {
+	margin-top: 30px;
+}
+
+#pageBody:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#pageBodyMain  {
+	width: 900px;
+	float: left;
+}
+#pageBodySub {
+	width: 800px;
+	float: left;
+}
+/* メイン画像 */
+#pageBody .mainVisual ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#pageBody .mainVisual ul li {
+	position: relative;
+}
+/* ------ メインカラム内の装飾 -------- */
+#pageBodyMain p {
+	font-size: 14px;
+	line-height: 1.429;
+  }
+* ------ サブカラム内の装飾 -------- */
+
+/* おしらせ */
+#pageBodySub .newsList ul {
+	list-style: none;
+	padding: 0;
+}
+
+#pageBodySub .newsList ul li{
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 10px 5px;
+}
+
+#pageBodySub .newsList ul li time {
+	font-weight: bold;
+	display: block;
+}
+/* リスト */
+#pageBodyMain ul li {
+	font-size: 14px;
+	list-style-type: square;
+	line-height: 1.429;
+}
+/* 見出し */
+#pageBodyMain .pageTitle {
+	font-size: 26px;
+	background-color:  #F2F2E5;
+	padding: 5px 15px;
+	line-height: 1.429;
+	margin-top: 0;
+}
+
+
+/* 区切り線・余白 */
+#pageBodyMain .articleDetailHead {
+	border-bottom: solid 1px #CCCCCC;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+}
+
+#pageBodyMain .articleDetailFoot{
+	border-top: solid 1px #CCCCCC;
+	margin-top: 30px;
+	padding-top: 15px;
+}
+
+#pageBodyMain .articleDetailBody section {
+
+	margin: 30px 0;
+}
+
+#pageBodyMain .creditUnit {
+	padding: 10px;
+	border: solid 1px #CCCCCC;
+}
+
+#pageBodyMain .creditUnit p {
+	font-size: 12px;
+	line-height: 1.429;
+}
+
+/* 区切り線・余白 */
+#pageBodyMain .articleDetailHead {
+	border-bottom: solid 1px #CCCCCC;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+}
+
+#pageBodyMain .articleDetailFoot{
+	border-top: solid 1px #CCCCCC;
+	margin-top: 30px;
+	padding-top: 15px;
+}
+
+#pageBodyMain .articleDetailBody section {
+
+	margin: 30px 0;
+}
